@@ -1,2 +1,8 @@
-package StrategyPattern.driveStrategy;public class NormalDriveStrategy {
+package StrategyPattern.driveStrategy;
+
+public class NormalDriveStrategy implements DriveStrategy{
+    @Override
+    public void drive() {
+        System.out.println("Normal Driving");
+    }
 }
